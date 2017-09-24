@@ -1,0 +1,72 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+.section-padding{
+  padding:90px 0;
+  margin-top: 200px;
+
+}
+.section-padding.section-dark-bg {
+    background: #191D1C;
+    color: #8b8f8c;
+}
+
+body {
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: 300;
+}
+.section-dark-bg h1 {
+    font-weight: 800;
+    font-size: 100px;
+    color: #fff;
+}
+
+.section-dark-bg h4 {
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.boxed-btn {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    border: 1px solid;
+    padding: 12px 30px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+a.boxed-btn:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.absulate-img {
+  margin-top: -180px;
+}
